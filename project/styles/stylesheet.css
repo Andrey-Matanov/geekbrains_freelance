@@ -100,7 +100,7 @@ button {
   position: absolute;
   left: -16px;
   top: -1px;
-  content: url("../../assets/header/play_button.svg");
+  content: url("../assets/header/play_button.svg");
 }
 
 .header__promocode_link {
@@ -112,7 +112,7 @@ button {
   position: absolute;
   top: -3px;
   left: -23px;
-  content: url("../../assets/header/gift.svg");
+  content: url("../assets/header/gift.svg");
 }
 
 .header__right_column {
@@ -234,7 +234,7 @@ input[type="submit"] {
   width: 20px;
   height: 20px;
   border: none;
-  background: url(../../assets/header/search.svg) no-repeat 50% 90%;
+  background: url(../assets/header/search.svg) no-repeat 50% 90%;
 }
 
 .links {
@@ -293,7 +293,7 @@ input[type="submit"] {
   position: absolute;
   right: -5px;
   top: -3px;
-  content: url("../../assets/links/rubrics.png");
+  content: url("../assets/links/rubrics.png");
 }
 
 .vbn:hover {
@@ -363,7 +363,7 @@ input[type="submit"] {
   position: absolute;
   top: -4px;
   left: -25px;
-  content: url("../../assets/news/main_comment.svg");
+  content: url("../assets/news/main_comment.svg");
 }
 
 .news__main_heading {
@@ -470,6 +470,6 @@ input[type="submit"] {
   position: absolute;
   top: -3px;
   left: -25px;
-  content: url("../../assets/news/comment.svg");
+  content: url("../assets/news/comment.svg");
 }
 /*# sourceMappingURL=stylesheet.css.map */
