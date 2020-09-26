@@ -30,7 +30,7 @@ button {
 }
 
 .header__wrapper {
-  padding: 20px 0;
+  padding: 10px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,14 +48,9 @@ button {
 }
 
 .header__left_column {
-  -ms-flex-preferred-size: 46%;
-      flex-basis: 46%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -90,34 +85,34 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-right: 88px;
 }
 
 .header__online_cinema_link {
   position: relative;
+  font-size: 14px;
+  margin-right: 41px;
 }
 
 .header__online_cinema_link::before {
   position: absolute;
   left: -16px;
-  top: -1px;
   content: url("../assets/header/play_button.svg");
 }
 
 .header__promocode_link {
   position: relative;
-  margin-left: 30px;
+  font-size: 14px;
 }
 
 .header__promocode_link::before {
   position: absolute;
-  top: -3px;
+  top: -5px;
   left: -23px;
   content: url("../assets/header/gift.svg");
 }
 
 .header__right_column {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -157,14 +152,16 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: 140px;
 }
 
 .header__account_button {
   background-color: #c4c4c4;
-  border-radius: 50px;
+  border-radius: 100px;
   border: none;
   padding: 10px;
-  margin-left: 34px;
+  margin-left: 28px;
+  height: 44px;
 }
 
 .search {
@@ -271,6 +268,7 @@ input[type="submit"] {
 
 .links__nav_link {
   padding: 8px 0;
+  font-size: 14px;
   margin: 0 14px;
 }
 
@@ -287,6 +285,7 @@ input[type="submit"] {
   padding-right: 24px;
   font-family: "Archivo";
   letter-spacing: 1px;
+  font-size: 14px;
 }
 
 .links__rubrics::after {

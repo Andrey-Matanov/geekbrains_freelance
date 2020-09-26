@@ -3,7 +3,7 @@
   font-family: "Inter", Arial, Helvetica, sans-serif;
 
   &__wrapper {
-    padding: 20px 0;
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,9 +15,7 @@
   }
 
   &__left_column {
-    flex-basis: 46%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 
     &_first {
@@ -40,33 +38,34 @@
     background: none;
     border: none;
     display: flex;
+    margin-right: 88px;
   }
 
   &__online_cinema_link {
     position: relative;
+    font-size: 14px;
+    margin-right: 41px;
 
     &::before {
       position: absolute;
       left: -16px;
-      top: -1px;
       content: url("../assets/header/play_button.svg");
     }
   }
 
   &__promocode_link {
     position: relative;
-    margin-left: 30px;
+    font-size: 14px;
 
     &::before {
       position: absolute;
-      top: -3px;
+      top: -5px;
       left: -23px;
       content: url("../assets/header/gift.svg");
     }
   }
 
   &__right_column {
-    flex-basis: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,13 +93,15 @@
     border: none;
     display: flex;
     align-items: center;
+    margin-left: 140px;
   }
 
   &__account_button {
     background-color: #c4c4c4;
-    border-radius: 50px;
+    border-radius: 100px;
     border: none;
     padding: 10px;
-    margin-left: 34px;
+    margin-left: 28px;
+    height: 44px;
   }
 }

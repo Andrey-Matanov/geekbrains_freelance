@@ -25,6 +25,7 @@
 
   &__nav_link {
     padding: 8px 0;
+    font-size: 14px;
     margin: 0 14px;
 
     &:hover {
@@ -40,6 +41,7 @@
     padding-right: 24px;
     font-family: $Archivo;
     letter-spacing: 1px;
+    font-size: 14px;
 
     &::after {
       position: absolute;
